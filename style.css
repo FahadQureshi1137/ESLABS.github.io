@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    background: #ffFf;
+    min-height: 100vh;
+    background: #000;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+
+.nav-img {
+    background-image: url(assets/images/homeimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo-text {
+    font-size: 20px;
+}
+
+.header-pages {
+    font-size: 15px;
+}
+
+.search-border {
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 15px 10px 15px;
+}
+
+.nav-text {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.nav-text-child {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 68px;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section {
+    width: 100vw;
+    height: 100vh;
+    flex-shrink: 0;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center center;
+}
+
+.mountain-div img {
+    width: 892px;
+    height: 594px;
+    position: relative;
+    right: 20%;
+}
+
+.person-div {
+    height: 75vh;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.person-div img {
+    z-index: 5;
+}
+
+.tracking-div img {
+    position: relative;
+    right: 5%;
+    z-index: 5;
+}
+
+.section3 {
+    width: 34.6% !important;
+}
+
+.tree-div {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section4 {
+    background-image: url(./images/vector.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 0;
+}
+
+.success-text {
+    font-size: 30px;
+}
+
+.make-enquiry {
+    display: inline-block;
+    background-color: #cb9f77;
+}
+
+.section4 {
+    position: relative;
+}
+
+.pin-spacer {
+    height: fit-content !important;
+    padding: 0px 0px 3725px !important;
+}
+
+
+.business {
+    font-size: 480px;
+    position: absolute;
+    font-weight: 300;
+    color: #000
+}
+
+.couples-img {
+    position: absolute;
+    left: 40%;
+    width: 25%;
+    height: 50%;
+    transform: rotate(8deg);
+}
+
+.z-index-1 {
+    position: absolute;
+    z-index: 3;
+}
